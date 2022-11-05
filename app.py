@@ -12,7 +12,7 @@ from resources.book import Books, BookList, SearchByLang, SearchByBookName, Dele
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ye:password123@localhost/store_db"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://yelin:12345@localhost/test"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 api = Api(app)
